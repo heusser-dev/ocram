@@ -1,0 +1,30 @@
+.custom-cursor {
+  cursor: url('https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAxL3JtNjA5LTNkaG9sby1wby0wMTYucG5n.png'), auto;
+}
+
+/* src/App.css */
+
+/* src/App.css */
+@font-face {
+  font-family: 'HardFont';
+  src: url('/public/assets/fonts/RaceSport.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'HardFont', sans-serif;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/assets/background.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1; /* Coloca el fondo detrás del contenido */
+}

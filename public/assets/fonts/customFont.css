@@ -1,0 +1,14 @@
+/* src/assets/fonts/CustomFont.css */
+@font-face {
+    font-family: 'customFont';
+    src: url('./Race Sport') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'CustomFont';
+    src: url('./CustomFont-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+} */
